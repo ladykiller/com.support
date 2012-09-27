@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="commons-lang"
+		module="commons-lang"
+		revision="2.6"
+		status="release"
+	/>
+</ivy-module>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.apache"
+		module="javax.transaction"
+		revision="1.0.0"
+		status="release"
+	/>
+</ivy-module>

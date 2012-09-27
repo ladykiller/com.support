@@ -1,0 +1,11 @@
+<project name="com.support" default="resolve" xmlns:ivy="antlib:org.apache.ivy.ant">
+	<target  name ="resolve" depends="clean-cache"> 
+	   <property  name ="ivy.default.ivy.user.dir"  value ="${ivy.settings.dir}/repository" />
+	    <ivy:resolve /> 
+	</target >
+	<target name="clean-cache" description="--> clean the ivy cache">
+		<property name="ivy.settings.dir" value="settings" />
+		<ivy:settings file="${ivy.settings.dir}/ivysettings.xml" />
+		<ivy:cleancache />
+	</target>
+</project>

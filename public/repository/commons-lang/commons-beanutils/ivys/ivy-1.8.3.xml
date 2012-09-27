@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="commons-lang"
+		module="commons-beanutils"
+		revision="1.8.3"
+		status="release"
+	/>
+</ivy-module>

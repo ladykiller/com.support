@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info
+        organisation="fitweber"
+        module="com.support"
+        status="integration">
+	</info>
+	<settings  defaultResolver ="chain-example" /> 
+	<caches defaultCacheDir="${ivy.settings.dir}/../ivyde-cache"/>
+    <resolvers > 
+		<chain  name ="chain-example"> 
+	    	<filesystem  name ="libraries"> 
+	    		<ivy pattern="${ivy.settings.dir}/repository/[organisation]/[module]/ivys/ivy-[revision].xml" />
+	        	<artifact  pattern ="${ivy.settings.dir}/repository/[organisation]/[module]/[type]s/[artifact]-[revision].[ext]"/>
+	        </filesystem > 
+		    <ibiblio  name ="public"  m2compatible ="true" />  
+	    </chain>
+	</resolvers > 
+</ivy-module>
