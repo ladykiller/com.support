@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.nutz"
+		module="nutz"
+		revision="1.b.35-jdk6"
+		status="release"
+	/>
+</ivy-module>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="jdbcdriver"
+		module="db2jcc_license_cu"
+		revision="9.5.200.315"
+		status="release"
+	/>
+</ivy-module>

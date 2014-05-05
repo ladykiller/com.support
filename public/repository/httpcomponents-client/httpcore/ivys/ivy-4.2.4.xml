@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="httpcomponents-client"
+		module="httpcore"
+		revision="4.2.4"
+		status="release"
+	/>
+</ivy-module>
